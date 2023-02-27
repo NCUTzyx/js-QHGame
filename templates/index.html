@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="acwing,web,html">
+    <meta name="description" content="拳皇小游戏">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/images/20200327163142_jqqti.jpeg">
+    <title>拳皇</title>
+    <script src="https://cdn.acwing.com/static/jquery/js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="/static/css/base.css">
+    <audio src="/static/audios/split.flac" autoplay></audio>
+</head>
+
+<body>
+    <div id="kof">
+        <div class="blood-volume">
+            <div class="player_0"> <div> <div></div> </div> </div>
+            <div class="timer">90</div>
+            <div class="player_1"> <div> <div></div> </div> </div>
+        </div>
+    </div>
+
+    <script type="module">
+        import { KOF } from "/static/js/base.js";
+
+        let kof = new KOF('kof');
+
+    </script>
+</body>
+
+</html>

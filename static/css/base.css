@@ -1,0 +1,81 @@
+#kof {
+    width: 1510px;
+    height: 696px;
+    background-image: url("/static/images/background/0.gif");
+    background-size: 150% 100%;
+    background-position: top;
+    border: 4px solid lightcoral;
+    position: absolute;
+}
+
+#kof>.blood-volume {
+    width: 1510px;
+    height: 80px;
+    position: absolute;
+}
+
+#kof .player_0 {
+    margin-left: 5px;
+    height: 40px;
+    width: 700px;
+    float: left;
+    border: white 5px solid;
+    border-right: none;
+    margin-top: 10px;
+
+}
+
+#kof .timer {
+    height: 60px;
+    width: 80px;
+    background-color: #F76B1C;
+    float: left;
+    border: white 5px solid;
+    color: wheat;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 60px;
+    user-select: none;
+
+}
+
+#kof .player_1 {
+    margin-right: 5px;
+    height: 40px;
+    width: 700px;
+    float: left;
+    border: white 5px solid;
+    border-left: none;
+    margin-top: 10px;
+}
+
+#kof .player_0>div {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    float: right;
+}
+
+#kof .player_1>div {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+
+#kof .player_0>div>div {
+    width: 100%;
+    height: 100%;
+    background-color: #FFE53B;
+    background-image: linear-gradient(90deg, #FFE53B 0%, #FF2525 80%);
+    float: right;
+}
+
+#kof .player_1>div>div {
+    width: 100%;
+    height: 100%;
+    background-color: #FFE53B;
+    background-image: linear-gradient(90deg, #FF2525 0%, #FFE53B 120%);
+}
